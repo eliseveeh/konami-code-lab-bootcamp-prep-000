@@ -6,9 +6,9 @@ function init() {
   // Write your JavaScript code inside the init() function
       function onKeyDownHandler(e){
         const key = parseInt(e.detail || e.which);
-        if (key === alphabet[index]){
+        if (key === code[index]){
           index++;
-              if (index === alphabet.length){
+              if (index === code.length){
                 alert("Hurray!");
 
                 index = 0;
